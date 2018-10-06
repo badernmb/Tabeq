@@ -1,0 +1,7 @@
+{
+  "name": "tabeq",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
