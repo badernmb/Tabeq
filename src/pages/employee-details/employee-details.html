@@ -1,0 +1,42 @@
+<ion-content padding>
+  <div>
+      <button ion-button icon-only (tap)="backToRoot()">
+          <ion-icon name="home"></ion-icon>
+      </button>
+  </div>
+  <img src="./assets/imgs/mol.jpg" style="display: block; margin: 2rem auto;"/>
+  <img src="./assets/imgs/user.png" height="80" style="display: block; margin: 2rem auto;"/>
+
+
+  <div ion-item>
+       <ion-label stacked>Name</ion-label>
+       <ion-input id="nameid" class="form-control" type="text" ></ion-input>
+   </div>
+
+   <div ion-item>
+        <ion-label stacked>Phone Number</ion-label>
+        <ion-input id="mobileid" class="form-control" type="text" ></ion-input>
+  </div>
+
+  <div ion-item>
+       <ion-label stacked>Street Name</ion-label>
+       <ion-input id="streetid" class="form-control" type="text" ></ion-input>
+  </div>
+
+  <div ion-item>
+       <ion-label stacked>Comment</ion-label>
+       <ion-textarea id="streetid" class="form-control" ></ion-textarea>
+  </div>
+
+
+
+  <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 2rem;">
+    <button id="end" ion-button round primary (tap)="end()">
+      End
+    </button>
+
+    <button  id="end"ion-button round color="danger" (tap)="report()">
+      Report
+    </button>
+  </div>
+</ion-content>

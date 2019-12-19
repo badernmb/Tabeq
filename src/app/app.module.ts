@@ -4,26 +4,37 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
+import { QRScanner } from '@ionic-native/qr-scanner';
+
 import { MyApp } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
 import { HomePage } from '../pages/home/home';
+//Bader
+import { EmployeeDetailsPage } from '../pages/employee-details/employee-details';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    //bader
+    EmployeeDetailsPage
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    //bader
+    EmployeeDetailsPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
+    QRScanner,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
