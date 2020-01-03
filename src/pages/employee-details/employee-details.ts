@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, LoadingController, AlertController } from 'ionic-angular';
+import { /*IonicPage,*/ NavController, NavParams, LoadingController, AlertController } from 'ionic-angular';
 
 import { Observable } from 'rxjs/Observable';
 import { HttpClient } from '@angular/common/http';
 
-@IonicPage()
+//@IonicPage()
 @Component({
   selector: 'page-employee-details',
   templateUrl: 'employee-details.html',

@@ -1,3 +1,5 @@
+/*
+
 import { Component } from '@angular/core';
 import { NavController, AlertController } from 'ionic-angular';
 import { QRScanner, QRScannerStatus } from '@ionic-native/qr-scanner';
@@ -64,3 +66,5 @@ export class HomePage {
     (window.document.querySelector('ion-app') as HTMLElement).classList.remove('cameraView');
   }
 }
+
+*/
