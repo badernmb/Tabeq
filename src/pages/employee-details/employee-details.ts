@@ -29,7 +29,7 @@ export class EmployeeDetailsPage {
     public alertCtrl: AlertController,
     public httpClient: HttpClient) {
 
-//Bader// adding comment
+//Bader// adding comment // test
   //    let loading = this.loadingCtrl.create({
   //      content: 'Please wait...'
   //    });
