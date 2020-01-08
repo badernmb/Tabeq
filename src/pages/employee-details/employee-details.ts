@@ -21,7 +21,7 @@ export class EmployeeDetailsPage {
     comments: '',
     storeName: ''
   }
-//test 
+//test
   constructor(
     public navCtrl: NavController,
     public navParams: NavParams,
@@ -29,7 +29,7 @@ export class EmployeeDetailsPage {
     public alertCtrl: AlertController,
     public httpClient: HttpClient) {
 
-//Bader
+//Bader// adding comment
   //    let loading = this.loadingCtrl.create({
   //      content: 'Please wait...'
   //    });
